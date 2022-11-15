@@ -1,0 +1,20 @@
+@font-face {
+  font-family: montserrate;
+  src: url("../src/assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: montserrate-bold;
+  src: url("../src/assets/fonts/Montserrat-Bold.ttf");
+}
+body {
+  margin: 0;
+  font-family: montserrate !important;
+}
+
+code {
+  font-family: montserrate, sans-serif !important;
+}
+
+.custom_height {
+  min-height: 66.75vh;
+}

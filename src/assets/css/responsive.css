@@ -1,0 +1,142 @@
+@media (max-width: 1300px) {
+  .parent-mail .inputs label {
+    width: 78%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .parent-mail .inputs label {
+    width: 73%;
+  }
+  .parent-mail .inputs label input {
+    width: 45%;
+  }
+  #voting .box-inner-btn button {
+    padding: 4px 0px;
+  }
+  .subscribe-form .custom-input-box .input-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 991px) {
+  header .pc-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex !important;
+    margin: 0px 20px;
+  }
+  .mobile-header a {
+    color: white;
+  }
+  .parent-mail .inputs label {
+    width: 81%;
+    margin: 0px 0px 0px 0px;
+  }
+  .parent-mail .inputs label input {
+    width: 100%;
+
+    margin: 10px 0px;
+  }
+  .parent-mail .inputs {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  header nav ul li {
+    padding: 0 14px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  #boxes .box .inputs {
+    flex-direction: column;
+    padding: 15px 0px;
+  }
+
+  #boxes .box .inputs input {
+    margin-top: 2px;
+  }
+  #boxes .box .inputs input.trap-token {
+    margin-bottom: 2px;
+  }
+  button {
+    font-size: 16px;
+  }
+  #community .box .inner-box {
+    width: 300px;
+    height: 230px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 768px) {
+  .primary-btn,
+  .secondry-btn {
+    font-size: 12px;
+  }
+  .copy-right {
+    text-align: center;
+  }
+  p,
+  label {
+    font-size: 12px;
+  }
+  #boxes .box .inputs input {
+    width: 80%;
+  }
+  .wallet-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .custom-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #boxes .box p {
+    margin: 2px 0px;
+  }
+  #boxes .sec-padding {
+    padding: 30px 0px;
+  }
+  .subscribe-form .custom-input-box input::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  #community .box .inner-box {
+    width: 100%;
+    height: 160px;
+    margin: 20px auto;
+  }
+  #community .box .first-box {
+    margin: 40px auto;
+  }
+  .invisible {
+    display: none;
+  }
+  .subscribe-form .custom-input-box {
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+  .subscribe-form .custom-input-box label {
+    order: 1;
+    flex-basis: 50%;
+  }
+  .subscribe-form .custom-input-box .input-box {
+    order: 2;
+  }
+  .subscribe-form .custom-input-box button {
+    order: 3;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  #community .box .inner-box {
+    width: 180px;
+    height: 180px;
+  }
+}
